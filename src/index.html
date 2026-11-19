@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Turnstile</title>
+    <meta name="description" content="Independent multi-club ticket platform concept. Find fixtures and see clear prices.">
+    <meta name="theme-color" content="#0f3b2a">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+  </head>
+  <body class="home">
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href="index.html" aria-label="Turnstile home"><span class="mono" aria-hidden="true">T</span><span class="word">Turnstile</span></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <label for="nav-toggle" class="burger" aria-hidden="true"><i></i><i></i><i></i></label>
+        <nav class="nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+          <a class="pill sm" href="fixtures.html">Find tickets</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-media" data-slot="hero-video">
+          <video autoplay muted loop playsinline preload="metadata" poster="assets/photos/hero.jpg" aria-hidden="true">
+            <source src="assets/video/hero.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="hero-in wrap">
+          <p class="eyebrow">Premier League tickets &middot; sample prototype</p>
+          <h1>Every match.<br>One clear price.</h1>
+          <p class="lead">Find your fixture, see what you will pay before you choose, and keep match day simple.</p>
+          <p class="cta"><a class="pill" href="fixtures.html">Browse fixtures</a><a class="pill ghost-light" href="prices.html">See booking prices</a></p>
+        </div>
+        <aside class="next" aria-label="Next fixture">
+          <p class="eyebrow">Next match</p>
+          <p class="next-teams"><img class="badge sm" src="assets/badges/coventry.png" alt="Coventry City badge" width="64" height="64" loading="lazy"><span>Coventry City</span><em>v</em><img class="badge sm" src="assets/badges/tottenham.png" alt="Tottenham Hotspur badge" width="64" height="64" loading="lazy"><span>Tottenham Hotspur</span></p>
+          <p class="small">Sunday 6 December 2026 &middot; 12:30 &middot; Coventry Building Society Arena</p>
+          <a class="pill sm" href="fixtures.html">Tickets from &pound;13</a>
+        </aside>
+      </section>
+      <section class="wrap band">
+        <div class="band-head">
+          <p class="eyebrow dark">Upcoming</p>
+          <h2>Fixtures this month</h2>
+          <a class="link" href="fixtures.html">All fixtures</a>
+        </div>
+        <div class="fx-list">
+          <article class="fx">
+            <time class="fx-date" datetime="2026-12-06"><b>6</b><span>Dec</span><small>Sun</small></time>
+            <div class="fx-teams">
+              <div class="team"><img class="badge md" src="assets/badges/coventry.png" alt="Coventry City badge" width="64" height="64" loading="lazy"><span>Coventry City</span></div>
+              <span class="vs">v</span>
+              <div class="team"><img class="badge md" src="assets/badges/tottenham.png" alt="Tottenham Hotspur badge" width="64" height="64" loading="lazy"><span>Tottenham Hotspur</span></div>
+            </div>
+            <p class="fx-meta">Coventry Building Society Arena &middot; 12:30 KO</p>
+            <p class="fx-price">from <b>&pound;13</b></p>
+            <div class="fx-actions"><a class="pill sm" href="prices.html#cat-c">View prices</a> <span class="pill sm ghost" aria-disabled="true" title="Seat selection arrives in a later release">Choose seats &middot; soon</span></div>
+          </article>
+          <article class="fx">
+            <time class="fx-date" datetime="2026-12-08"><b>8</b><span>Dec</span><small>Tue</small></time>
+            <div class="fx-teams">
+              <div class="team"><img class="badge md" src="assets/badges/brighton.png" alt="Brighton &amp; Hove Albion badge" width="64" height="64" loading="lazy"><span>Brighton &amp; Hove Albion</span></div>
+              <span class="vs">v</span>
+              <div class="team"><img class="badge md" src="assets/badges/man-united.png" alt="Manchester United badge" width="64" height="64" loading="lazy"><span>Manchester United</span></div>
+            </div>
+            <p class="fx-meta">Amex Stadium &middot; 15:00 KO</p>
+            <p class="fx-price">from <b>&pound;17</b></p>
+            <div class="fx-actions"><a class="pill sm" href="prices.html#cat-b">View prices</a> <span class="pill sm ghost" aria-disabled="true" title="Seat selection arrives in a later release">Choose seats &middot; soon</span></div>
+          </article>
+          <article class="fx">
+            <time class="fx-date" datetime="2026-12-12"><b>12</b><span>Dec</span><small>Sat</small></time>
+            <div class="fx-teams">
+              <div class="team"><img class="badge md" src="assets/badges/liverpool.png" alt="Liverpool badge" width="64" height="64" loading="lazy"><span>Liverpool</span></div>
+              <span class="vs">v</span>
+              <div class="team"><img class="badge md" src="assets/badges/crystal-palace.png" alt="Crystal Palace badge" width="64" height="64" loading="lazy"><span>Crystal Palace</span></div>
+            </div>
+            <p class="fx-meta">Anfield &middot; 15:00 KO</p>
+            <p class="fx-price">from <b>&pound;22</b></p>
+            <div class="fx-actions"><a class="pill sm" href="prices.html#cat-a">View prices</a> <span class="pill sm ghost" aria-disabled="true" title="Seat selection arrives in a later release">Choose seats &middot; soon</span></div>
+          </article>
+          <article class="fx">
+            <time class="fx-date" datetime="2026-12-14"><b>14</b><span>Dec</span><small>Mon</small></time>
+            <div class="fx-teams">
+              <div class="team"><img class="badge md" src="assets/badges/arsenal.png" alt="Arsenal badge" width="64" height="64" loading="lazy"><span>Arsenal</span></div>
+              <span class="vs">v</span>
+              <div class="team"><img class="badge md" src="assets/badges/crystal-palace.png" alt="Crystal Palace badge" width="64" height="64" loading="lazy"><span>Crystal Palace</span></div>
+            </div>
+            <p class="fx-meta">Emirates Stadium &middot; 15:00 KO</p>
+            <p class="fx-price">from <b>&pound;22</b></p>
+            <div class="fx-actions"><a class="pill sm" href="prices.html#cat-a">View prices</a> <span class="pill sm ghost" aria-disabled="true" title="Seat selection arrives in a later release">Choose seats &middot; soon</span></div>
+          </article>
+        </div>
+        <p class="sample"><span>Sample data</span> Fixtures and prices on this prototype are illustrative only and are not real listings.</p>
+      </section>
+      <section class="wrap split">
+        <div class="panel round">
+          <p class="eyebrow dark">How it works</p>
+          <h2>Three steps, no surprises</h2>
+          <ol class="steps">
+            <li><b>Pick a match</b><span>Browse by date and club. Every fixture shows its lowest price up front.</span></li>
+            <li><b>Compare categories</b><span>Adult, concession and under-18 prices sit side by side in one table.</span></li>
+            <li><b>Choose your seats</b><span>Seat selection is on the roadmap. Booking opens in a later release.</span></li>
+          </ol>
+        </div>
+        <div class="media-panel round" data-slot="match-photo">
+          <img src="assets/photos/crowd.jpg" alt="Fans on a matchday approach" loading="lazy">
+          <p class="cap">Matchday photography goes here</p>
+        </div>
+      </section>
+      <section class="wrap band">
+        <div class="band-head">
+          <p class="eyebrow dark">Clubs</p>
+          <h2>Twenty clubs, one place</h2>
+          <a class="link" href="clubs.html">All clubs</a>
+        </div>
+        <ul class="club-strip">
+          <li><a href="clubs.html#arsenal"><img class="badge sm" src="assets/badges/arsenal.png" alt="Arsenal badge" width="64" height="64" loading="lazy"><span>Arsenal</span></a></li>
+          <li><a href="clubs.html#aston-villa"><img class="badge sm" src="assets/badges/aston-villa.png" alt="Aston Villa badge" width="64" height="64" loading="lazy"><span>Aston Villa</span></a></li>
+          <li><a href="clubs.html#bournemouth"><img class="badge sm" src="assets/badges/bournemouth.png" alt="AFC Bournemouth badge" width="64" height="64" loading="lazy"><span>AFC Bournemouth</span></a></li>
+          <li><a href="clubs.html#brentford"><img class="badge sm" src="assets/badges/brentford.png" alt="Brentford badge" width="64" height="64" loading="lazy"><span>Brentford</span></a></li>
+          <li><a href="clubs.html#brighton"><img class="badge sm" src="assets/badges/brighton.png" alt="Brighton &amp; Hove Albion badge" width="64" height="64" loading="lazy"><span>Brighton &amp; Hove Albion</span></a></li>
+          <li><a href="clubs.html#chelsea"><img class="badge sm" src="assets/badges/chelsea.png" alt="Chelsea badge" width="64" height="64" loading="lazy"><span>Chelsea</span></a></li>
+          <li><a href="clubs.html#coventry"><img class="badge sm" src="assets/badges/coventry.png" alt="Coventry City badge" width="64" height="64" loading="lazy"><span>Coventry City</span></a></li>
+          <li><a href="clubs.html#crystal-palace"><img class="badge sm" src="assets/badges/crystal-palace.png" alt="Crystal Palace badge" width="64" height="64" loading="lazy"><span>Crystal Palace</span></a></li>
+          <li><a href="clubs.html#everton"><img class="badge sm" src="assets/badges/everton.png" alt="Everton badge" width="64" height="64" loading="lazy"><span>Everton</span></a></li>
+          <li><a href="clubs.html#fulham"><img class="badge sm" src="assets/badges/fulham.png" alt="Fulham badge" width="64" height="64" loading="lazy"><span>Fulham</span></a></li>
+        </ul>
+      </section>
+      <section class="wrap">
+        <div class="cta-panel round">
+          <h2>Know the price before you commit.</h2>
+          <p>Our price table lists every category with the booking fee shown separately.</p>
+          <a class="pill" href="prices.html">Booking prices</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap foot">
+        <div>
+          <a class="brand light" href="index.html"><span class="mono" aria-hidden="true">T</span><span class="word">Turnstile</span></a>
+          <p class="muted">Tickets for every club, priced plainly.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="prices.html">Booking prices</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="terms.html">Terms &amp; conditions</a></li>
+          </ul>
+        </nav>
+        <div class="small muted">
+          <p><strong>A university project, not a real ticket service.</strong> Turnstile was designed and built by Sameer Roy for the UFCFES-30-1 Web Development module at UWE Bristol.</p>
+          <p>Fixtures, prices and availability are <strong>sample data</strong>. No tickets are sold and no personal data is collected. Club names are used for identification only; Turnstile is not affiliated with any club or league. <a class="seven-link" href="seven.html" aria-label="A small tribute">7</a></p>
+        </div>
+      </div>
+      <p class="wrap small muted foot-note">&copy; 2026 Turnstile. University coursework, not for public use.</p>
+    </footer>
+  </body>
+</html>

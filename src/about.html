@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About us | Turnstile</title>
+    <meta name="description" content="About the platform and this prototype.">
+    <meta name="theme-color" content="#0f3b2a">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href="index.html" aria-label="Turnstile home"><span class="mono" aria-hidden="true">T</span><span class="word">Turnstile</span></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <label for="nav-toggle" class="burger" aria-hidden="true"><i></i><i></i><i></i></label>
+        <nav class="nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+          </ul>
+          <a class="pill sm" href="fixtures.html">Find tickets</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-head wrap">
+        <p class="eyebrow dark">About us</p>
+        <h1>An independent home for match tickets</h1>
+      </section>
+      <section class="wrap narrow prose">
+        <aside class="note"><strong>This is a university project.</strong> Turnstile is not a real company. No tickets are sold, no payments are taken and no personal data is collected. All fixtures, prices and availability are sample data.</aside>
+        <h2>What is this site?</h2>
+        <p>Turnstile is a concept for an independent, multi-club ticket platform covering the 2026/27 Premier League. It was designed and built by Sameer Roy as part of the UFCFES-30-1 Web Development module at UWE Bristol, and doubles as a frontend portfolio piece.</p>
+        <figure class="figure">
+          <img src="assets/photos/stadium.jpg" alt="A football stadium exterior" loading="lazy">
+          <figcaption>The idea: make it simple to find a match and understand the price.</figcaption>
+        </figure>
+        <h2>What problem does it explore?</h2>
+        <p>Fans often find fixtures and prices spread across several pages, with extra fees appearing late. This concept explores a short path from fixture list to price, with the booking fee always shown separately and up front.</p>
+        <h2>What we believe</h2>
+        <ul>
+          <li><b>Clarity first.</b> Prices and fees are always visible.</li>
+          <li><b>Calm design.</b> Quiet layouts, readable type, nothing that shouts.</li>
+          <li><b>Respect for clubs.</b> We show club names plainly and never imitate crests.</li>
+        </ul>
+        <figure class="figure"><img src="assets/photos/pitch.jpg" alt="Close-up of grass on a football pitch" loading="lazy"></figure>
+        <h2>What is not included</h2>
+        <p>Seat selection, basket and checkout are not part of this project yet, so those controls are shown as &ldquo;soon&rdquo;.</p>
+        <p><a class="pill" href="fixtures.html">Browse fixtures</a> <a class="pill ghost" href="terms.html">Terms &amp; conditions</a></p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap foot">
+        <div>
+          <a class="brand light" href="index.html"><span class="mono" aria-hidden="true">T</span><span class="word">Turnstile</span></a>
+          <p class="muted">Tickets for every club, priced plainly.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="prices.html">Booking prices</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="terms.html">Terms &amp; conditions</a></li>
+          </ul>
+        </nav>
+        <div class="small muted">
+          <p><strong>A university project, not a real ticket service.</strong> Turnstile was designed and built by Sameer Roy for the UFCFES-30-1 Web Development module at UWE Bristol.</p>
+          <p>Fixtures, prices and availability are <strong>sample data</strong>. No tickets are sold and no personal data is collected. Club names are used for identification only; Turnstile is not affiliated with any club or league. <a class="seven-link" href="seven.html" aria-label="A small tribute">7</a></p>
+        </div>
+      </div>
+      <p class="wrap small muted foot-note">&copy; 2026 Turnstile. University coursework, not for public use.</p>
+    </footer>
+  </body>
+</html>
